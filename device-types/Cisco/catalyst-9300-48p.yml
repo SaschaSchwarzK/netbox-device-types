@@ -1,0 +1,14 @@
+manufacturer: Cisco
+model: Catalyst 9300-48p
+slug: catalyst-9300-48p
+u_height: 1
+is_full_depth: true
+interfaces: []
+console-ports: []
+console-server-ports: []
+power-ports: []
+power-outlets: []
+rear-ports: []
+front-ports: []
+device-bays: []
+module-bays: []
