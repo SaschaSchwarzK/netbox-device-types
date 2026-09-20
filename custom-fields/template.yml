@@ -1,0 +1,13 @@
+custom_field_choice_sets: []
+custom_fields:
+- name: cust_id
+  label: Customer ID
+  type: text
+  content_types: []
+  required: false
+  filter_logic: exact
+  weight: 100
+  ui_visible: always
+  ui_editable: 'yes'
+  is_cloneable: false
+  validation_regex: ^[A-Z]{3}\d{2}$
