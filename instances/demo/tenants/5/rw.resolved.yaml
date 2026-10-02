@@ -1,0 +1,27 @@
+instance: demo
+tenant:
+  id: 5
+  name: Dunder-Mifflin, Inc.
+group: dunderrw
+template:
+  name: example
+  version: 1
+permissions:
+- object_type: dcim.device
+  actions:
+  - view
+  - add
+  - change
+  - delete
+  constraints:
+    tenant__id: 5
+- object_type: dcim.interface
+  actions:
+  - view
+  - add
+  - change
+  - delete
+  constraints:
+    device__tenant__id: 5
+unscoped_grants: []
+skipped_unsupported: []
