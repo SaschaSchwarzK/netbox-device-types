@@ -6,7 +6,7 @@ rw_template:
 ro_template:
   derived_from: example
   version: 1
-oidc_group_ro: dunder
-oidc_group_rw: dunderrw
-last_applied_at: '2026-10-02T15:49:42.073397+00:00'
+oidc_group_ro: DM_RO
+oidc_group_rw: DM_RW
+last_applied_at: '2026-10-03T09:47:13.600098+00:00'
 last_applied_by: anonymous (auth disabled)
