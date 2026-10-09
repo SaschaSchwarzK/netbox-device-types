@@ -3,8 +3,10 @@ custom_fields:
 - name: cust_id
   label: Customer ID
   type: text
-  content_types: []
+  object_types: []
   required: false
+  unique: false
+  search_weight: 1000
   filter_logic: exact
   weight: 100
   ui_visible: always
