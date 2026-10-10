@@ -2,7 +2,7 @@ instance: demo
 tenant:
   id: 5
   name: Dunder-Mifflin, Inc.
-group: dunderrw
+group: DM_RW
 template:
   name: example
   version: 1
